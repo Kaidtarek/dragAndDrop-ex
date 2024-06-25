@@ -93,7 +93,7 @@ class _DragDropExampleState extends State<DragDropExample> {
                             ''; // Clear the word from the target box
                       }
                       words[index] =
-                          details.data; // Return word to its original place
+                          details.data; 
                       isWordDragged[index] = false;
                     });
                   },
